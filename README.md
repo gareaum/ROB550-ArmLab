@@ -27,5 +27,17 @@ The robotic arm uses **forward and inverse kinematics** to translate between joi
 ---
 
 ### Autonomous Motion
-![Autonomous Motion](Images/Autonomous_Motion.png)
+
 The robot performs autonomous block manipulation using a **three-stage motion sequence**: approach, grasp, and retract. This strategy ensures stable and precise handling of objects, allowing the arm to reliably pick up blocks and place them in predefined configurations without manual intervention.
+
+---
+
+## 📊 Results
+
+- **Forward Kinematics Accuracy:** Average positional error ~6.25 mm, ensuring reliable grasping and placement.  
+- **Block Detection:** Successfully detects and localizes colored blocks in real-time; performance is highest near the center of the workspace.  
+- **Autonomous Task Performance:** Completed multiple block manipulation cycles with stable and repeatable execution.  
+- **Calibration & Homography:** Factory intrinsic matrix combined with AprilTag extrinsic calibration produced the most accurate coordinate mapping.  
+
+For a detailed explanation of methods, calibration data, and full experimental results, see the [ROB550 ArmLab Report](ROB550_ArmLab_Report.pdf) in this repository. 
+
