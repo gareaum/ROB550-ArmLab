@@ -14,7 +14,7 @@ Calibration & Homography: Converts camera pixel coordinates to 3D world coordina
 ![Homography](Images/Homography.png)
 
 Kinematics: Forward and inverse kinematics implemented for reliable end-effector positioning.
-![Block detection](Images/DH_kinematics.png)
+![Block detection](Images/DH_Kinematics.png)
 
 Autonomous Motion: Click-to-grasp sequences with approach, grasp, and retract stages for object handling. 
 
