@@ -1,2 +1,1 @@
-# Armlab
-Worked with a 5-DOF robotic arm to develop autonomous manipulation capabilities. The project focused on integrating computer vision, kinematics, and path planning to enable the robot to detect and manipulate objects.
+This project, developed for ROB550 – Spring 2026, focuses on building an autonomous 5-DOF ReactorX 200 robotic arm capable of detecting, grasping, and arranging colored blocks. The system integrates computer vision, kinematics, and motion planning to enable precise end-effector manipulation. 
